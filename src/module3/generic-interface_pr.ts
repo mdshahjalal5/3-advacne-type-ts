@@ -22,3 +22,16 @@ const newPrincipal:identity<string, number, string, number> = {
 }
 
 
+
+type teacherPreq<x, y, z> ={
+    name:x, 
+    age:y, 
+    address?:z
+}
+
+interface teacherPreq2<a, b, c, d>{
+    name:a, 
+    age:b, 
+    address?:c, 
+    experience:d
+}
