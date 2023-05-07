@@ -1,4 +1,4 @@
-// Generic Interface
+// ! Generic Interface
 
 interface CrushInterface<T, U = null> {
   name: string;
@@ -38,7 +38,7 @@ const crush2: CrushInterface<string> = {
 interface HusbandInterface {
   name: string;
   salary: number;
-}
+} 
 
 const crush3: CrushInterface<HusbandInterface> = {
   name: "Kate Winslet",
@@ -87,7 +87,7 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [
   {
     name: "Mr. X",
     roll: 1,
-  },
+  }, 
   {
     name: "Mr. Y",
     roll: 2,
