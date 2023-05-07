@@ -1,3 +1,4 @@
+5/7/2023, 6:17:36 AM 
 ## !n! as ni ac =>type assertion => nisa (any type not suggestion) => try catch(unknown ) => <> 
 
 ## !n! irex  => interface => reference type(farab) => extends => 
