@@ -1,5 +1,8 @@
 type GenericTuple<X, Y> = [X, Y];
 
+type gen<a> = a;
+const name91:gen<string> = 'ismai'
+
 const relation: GenericTuple<string, string> = ["Persian", "Kate Winslet"];
 
 // type RelationWithSalaryType = { name: string; salary: number };

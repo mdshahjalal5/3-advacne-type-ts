@@ -1,4 +1,4 @@
-//Arrow Function
+   //Arrow Function
 
 const createArray = (param: string): string[] => {
   return [param];
@@ -33,4 +33,3 @@ const myInfo = {
   salary: 100000000,
 };
 const result5 = addMeInMyCrushMind(myInfo);
-result5.

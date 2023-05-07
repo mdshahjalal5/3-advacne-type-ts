@@ -1,4 +1,4 @@
-// !n! generic type => vat => variable => type
+// !n! generic type => pav => parameter => type = value
 
 // !array difway
 const numbers113:number[] = [3, 4, 5, ]
