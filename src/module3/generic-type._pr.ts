@@ -1,4 +1,4 @@
-// !n! generic type => x in => 
+// !n! generic type => vat => variable => type
 
 // !array difway
 const numbers113:number[] = [3, 4, 5, ]
@@ -17,6 +17,18 @@ interface introType{
     salary:number, 
     
 }
+type introTypeGen<x, y, z> = [x, y, z]
+// !n! first x,y, z is type 2nd x, y, z is value 
+const introType:introTypeGen<number, string, boolean> = [3, 'sha', true]
+// ! generic interface 
+
+interface introTypeGen3<a, b, c, d>{
+    name:a, 
+    age:b, 
+    salary:c, 
+    hobbies:d
+}
+
 
 const introGen:genericTouple2<introType, number> = [
     {name:'shah', age: 23, salary: 10000}, 3       

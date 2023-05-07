@@ -18,3 +18,4 @@ git commit -m 'done'
 ```
 
 ```
+vscode://eamodio.gitlens/link/r/738e7c9a3b5346743f7b3e51905695c1387d61a1?url=https%3A%2F%2Fgithub.com%2Fmdshahjalal5%2F3-advacne-type-ts.git
