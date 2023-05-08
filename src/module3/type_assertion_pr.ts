@@ -1,4 +1,17 @@
 //!n! as ni ac =>type assertion => nisa (any type not suggestion) => try catch(unknown ) => <> 
+// ---- -----// ----------------
+let name332: unknown = "John Doe";
+
+// This will throw a type error, because `name` is of type `unknown`
+// and TypeScript doesn't know that it is a string.
+console.log(name332.toUpperCase());  // !un! 'name332' is of type 'unknown'.
+
+// This will not throw a type error, because we've used a type assertion
+// to tell TypeScript that `name` is a string.
+console.log((<string>name332).toUpperCase());
+
+
+
 let assertion:any;
 assertion = 'learning type assertion';
 const split = assertion.split(" ");

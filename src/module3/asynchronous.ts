@@ -74,3 +74,6 @@ const getPromiseDataBoolean = async (): Promise<boolean> => {
 };
 
 // Promise<string> Promise<boolean> Promise<objecct>
+
+
+

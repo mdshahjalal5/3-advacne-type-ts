@@ -16,3 +16,6 @@
 git add .
 git commit -m 'done'
 git push
+git add .
+git commit -m 'done'
+git push
