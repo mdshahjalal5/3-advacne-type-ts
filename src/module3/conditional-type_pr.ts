@@ -36,12 +36,3 @@ type key = keyof passed; // !n! key = name | age;
 
 
 //? ----------------------------------------------------------/////------------------------------    --------------------------------------------------------
-
-type genius = {
-    name:string, 
-    age:number, 
-    is_true: boolean, 
-}
-
-type genniusKey= keyof genius; // ! name | age | is_true
-
