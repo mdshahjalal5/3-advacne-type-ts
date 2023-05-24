@@ -35,6 +35,8 @@ console.log(uppercase, '"upper"')
 
 const meterToCm = (meter:number | string|undefined  ): string | number | undefined => {
     if (typeof meter === 'number') {
+        console.log(meter);
+        
         return meter * 100;
     }
     if(typeof meter === 'string'){
@@ -45,6 +47,7 @@ const meterToCm = (meter:number | string|undefined  ): string | number | undefin
 const  meterString = meterToCm(3)
 console.log(meterString, '"meterString"')
 const resultToBeString = <string>meterToCm("1000");
-const meterNumber =<number> meterToCm('10')
+const meterNumber =<number> meterToCm('4')
 console.log(meterNumber, '"meteNum"');
 
+ 
