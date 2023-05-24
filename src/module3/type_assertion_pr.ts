@@ -17,6 +17,7 @@ if (typeof name332 === "string"){
 
 // This will not throw a type error, because we've used a type assertion
 // to tell TypeScript that `name` is a string.
+
 console.log((<string>name332).toUpperCase());
 
 
