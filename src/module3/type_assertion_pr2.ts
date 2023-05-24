@@ -10,4 +10,12 @@ let strLength2: number = (<number>someValue).length; // ! [ts] Property 'length'
 // !?---------------------------------------//----------------------------------------------------------------
 
 
+const identifier = 'MY identifier is olf fingerprint'
+let identifierArray = (<string>identifier).split(' ')
+console.log("🚀 ~ identifier:", identifier)
+
+// ? ------------------------------------//----------------------------------------------------------------
+
+
+
 
