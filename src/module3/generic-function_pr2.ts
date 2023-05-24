@@ -7,6 +7,9 @@ const picnic_arrange = <T1, T2>(p1:T1, p2:T2)=>{
 
 }
 
-const picnic = picnic_arrange<object, string>({}, 'Kamruzzaman');
+const picnic = picnic_arrange<object, string>({name:"david", age:39}, 'Kamruzzaman');
 console.log(picnic);
+
+
+// ?----------------------------------//------------------------------//--------------------------------
 
