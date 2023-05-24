@@ -5,6 +5,8 @@ let name332: unknown = "John Doe";
 // This will throw a type error, because `name` is of type `unknown`
 // and TypeScript doesn't know that it is a string.
 
+name332.toUpperCase() // ? [ts] 'name332' is of type 'unknown'.
+
 // ? before using unknown type must check the type it is type guard 
 if (typeof name332 === "string"){
     console.log(name332.toUpperCase());  // !un! 'name332' is of type 'unknown'.
