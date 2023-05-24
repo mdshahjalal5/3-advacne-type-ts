@@ -4,6 +4,7 @@
 const numbers113:number[] = [3, 4, 5, ]
 const numbers42:Array<number> = [3, 4.5, ]
 
+const numbersArray:Array<number> = [3, 4, 5, ...numbers42]
 
 type genericTouple2<x, y> = [x, y]
 
