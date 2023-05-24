@@ -85,3 +85,7 @@ const shape = {
   is_long:true, 
 }
 
+const  intro9 = (shape as shape)
+console.log(intro9);
+
+
