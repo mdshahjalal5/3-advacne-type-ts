@@ -48,3 +48,6 @@ function lastElemeent<T>(arr:T[]):T| undefined {
 const res = <string>lastElemeent(['ismail'])
 
 console.log(res);
+
+
+
