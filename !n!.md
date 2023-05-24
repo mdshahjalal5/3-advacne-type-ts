@@ -11,3 +11,5 @@
 ## !n! generic in function 
 ##  ! pa ba => before param and after param
 
+<!-- ?gap! -->
+conditional type with generic and promise with generic 
