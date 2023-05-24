@@ -47,7 +47,7 @@ interface DataType {
   data: string;
 }
 
-const makePromiseObject = (): Promise<DataType> => {
+const makePromiseObject = (): Promise<DataType> => { 
   return new Promise<DataType>((resolve, reject) => {
     const data: DataType = { data: "Data is fetched" };
     if (data) {
@@ -73,7 +73,7 @@ const getPromiseDataBoolean = async (): Promise<boolean> => {
   return data;
 };
 
-// Promise<string> Promise<boolean> Promise<objecct>
+// Promise<string> Promise<boolean> Promise<objecct> Promise<type> Promise<alias> 
 
 
 

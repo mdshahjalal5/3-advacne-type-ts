@@ -11,7 +11,7 @@
 ## !n! generic in function 
 ##  ! pa ba => before param and after param
 
-1 Amar Ache Jol 
+
 
 git add .
 git commit -m 'done'
