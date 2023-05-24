@@ -34,3 +34,9 @@ const ami:Property<Property9, string, boolean> = [
 true
 ]
 
+// ?-------------------------------------------// --------------------------------
+
+
+function firstElement<T>(arr: T[]): T | undefined {
+  return arr[0];
+}
