@@ -3,6 +3,8 @@
 let someValue: any = "Hello, World!";
 let strLength: number = (<string>someValue).length;
 
+let strLength2: number = (<number>someValue).length; // ! [ts] Property 'length' does not exist on type 'number'.
+
 console.log(strLength);
 
 
