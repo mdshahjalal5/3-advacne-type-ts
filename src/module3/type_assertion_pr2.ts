@@ -23,7 +23,8 @@ console.log(dsa);
 // ? ------------------------------------//----------------------------------------------------------------
 
 
-//  
+//  ! tabrab =>table>array>object=> console.table can use for  array and object
+
 const person = {
   name: "John Doe",
   age: 35,
