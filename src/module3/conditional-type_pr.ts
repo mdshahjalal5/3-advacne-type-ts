@@ -35,3 +35,16 @@ type passed = {
 type key = keyof passed; // !n! key = name | age;
 
 
+// -----------------------
+
+type IfEmpty<T extends { length: number }> = T['length'] extends 0 ? true : false;
+
+function isEmpty<T extends { length: number }>(arr: T): IfEmpty<T> {
+  return arr.length === 0 ? true : false;
+}
+
+const emptyArray: string[] = [];
+const nonEmptyArray = ['one', 'two'];
+
+const emptyCheck1: boolean = isEmpty(emptyArray); // returns true
+const emptyCheck2: boolean = isEmpty(nonEmptyArray); // returns false
