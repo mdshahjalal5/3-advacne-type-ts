@@ -41,6 +41,10 @@ function firstElement<T>(arr: T[]): T | undefined {
   return arr[0];
 }
 
-function lastElemeent<T>(arr:T[]){
+function lastElemeent<T>(arr:T[]):T| undefined {
     return arr[arr.length - 1];
 }
+
+const res = <string>lastElemeent(['ismail'])
+
+console.log(res);
