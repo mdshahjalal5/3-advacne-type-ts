@@ -18,3 +18,19 @@ console.table(intro);
 //? ----------------------// ----------------------// ----------------------// ----------------------// ----------------------//
 
 
+interface Property9{
+    name: string;
+    age: number;
+}
+
+ type Property<x, y, z>   = [x, y,z ]
+
+const ami:Property<Property9, string, boolean> = [
+    {name:'sha', 
+    age:36, 
+
+}, 
+'shahjala', 
+true
+]
+
