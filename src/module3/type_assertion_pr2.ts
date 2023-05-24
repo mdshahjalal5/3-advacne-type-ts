@@ -88,4 +88,23 @@ const shape = {
 const  intro9 = (shape as shape).is_long
 console.log(intro9);
 
+// ?------------------------------------///---------------------------------------///--------------------------------
 
+const myObject: {
+  name: string;
+  age: number;
+} = {
+  name: "John Doe",
+  age: 30,
+};
+
+const my_name = <string>myObject.name;
+const my_age = <number>myObject.age;
+console.log(my_name, my_age);
+
+
+// const myName = (<string>(myObject).name);
+// const myAge = (<number>(myObject).age);
+
+// console.log(myName); // John Doe
+// console.log(myAge); // 30
