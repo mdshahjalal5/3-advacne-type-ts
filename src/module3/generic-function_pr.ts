@@ -21,6 +21,8 @@ const getIdentity = <A, b>(p1:A, p2:b): object =>{
 const student2 = getIdentity<string, number>('fs', 30)
 console.log(student2, '"student23"');
 
+// ?-------------------------------------//----------------------------------------------------------------
+
 
 
 const myInfo33 = <x>(myinfo:x):object =>{
@@ -36,6 +38,12 @@ const myInfores = <object>myInfo33({
 })
 
 console.log(myInfores, '"myinfores"')
+
+// ?----------------------------------------------------------------------------------------------------------------//--------------------------------------------
+
+
+
+
 
 function getFirst<T>(arr: T[]): T {
     return arr[0];
