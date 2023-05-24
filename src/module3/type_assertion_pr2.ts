@@ -71,3 +71,17 @@ console.log(user7.id); // Output: 123
 console.log(user7.name); // Output: John Doe
 console.log(user7.email); // Output: johndoe@example.com
 
+//?  -----------------------------------------/// -------------------------------- --------------------
+
+interface shape {
+  size:number, 
+  name:string, 
+  is_long:boolean, 
+}
+
+const shape = {
+  size:3, 
+  name:'meter measurements', 
+  is_long:true, 
+}
+
