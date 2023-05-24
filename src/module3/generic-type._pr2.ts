@@ -40,3 +40,7 @@ true
 function firstElement<T>(arr: T[]): T | undefined {
   return arr[0];
 }
+
+function lastElemeent<T>(arr:T[]){
+    return arr[arr.length - 1];
+}
