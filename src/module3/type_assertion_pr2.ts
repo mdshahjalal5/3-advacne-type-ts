@@ -85,7 +85,7 @@ const shape = {
   is_long:true, 
 }
 
-const  intro9 = (shape as shape)
+const  intro9 = (shape as shape).is_long
 console.log(intro9);
 
 
