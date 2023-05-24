@@ -1,4 +1,5 @@
 // ? ternary operator
+
 const age: number = 15;
 
 if (age >= 18) {
@@ -13,10 +14,9 @@ console.log(isAdult);
 // ? Nullish Coalesnace Operator
 // ? Null and Undefined
 
-const isAuthenticatedUser = "";
+const isAuthenticatedUser = "not guest";
 const userName = isAuthenticatedUser ?? "Guest";
-const userName2 = isAuthenticatedUser ? isAuthenticatedUser : "Guest";
-
+const userName2 = isAuthenticatedUser ? "Guest" : isAuthenticatedUser; ;
 console.log({ userName }, { userName2 });
 
 type Manush = {
