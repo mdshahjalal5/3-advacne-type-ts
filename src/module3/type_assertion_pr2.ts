@@ -44,3 +44,25 @@ const array = [
 
 console.table(array);
 
+
+
+// ? _-----------------------------------------------------//------------------------------------------------
+interface User7 {
+  id: number;
+  name: string;
+  email: string;
+}
+
+const userResponse = {
+  id: 123,
+  name: 'John Doe',
+  email: 'johndoe@example.com'
+};
+
+// Type assertion to tell TypeScript that userResponse is of type User
+const user7 = userResponse as User7;
+
+console.log(user7.id); // Output: 123
+console.log(user7.name); // Output: John Doe
+console.log(user7.email); // Output: johndoe@example.com
+
