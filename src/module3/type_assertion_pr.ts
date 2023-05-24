@@ -1,4 +1,5 @@
 //!n! as ni ac =>type assertion => nisa (any type not suggestion) => try catch(unknown ) => <> 
+
 // ---- -----// ----------------
 let name332: unknown = "John Doe";
 
@@ -6,6 +7,8 @@ let name332: unknown = "John Doe";
 // and TypeScript doesn't know that it is a string.
 
 name332.toUpperCase() // ? [ts] 'name332' is of type 'unknown'.
+
+// ? rev! 5/24/2023, 7:21:21 AM 
 
 // ? before using unknown type must check the type it is type guard 
 if (typeof name332 === "string"){
