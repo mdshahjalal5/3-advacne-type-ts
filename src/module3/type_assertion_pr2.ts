@@ -47,6 +47,10 @@ console.table(array);
 
 
 // ? _-----------------------------------------------------//------------------------------------------------
+
+// ! why I need type assertion as ts can infer type 
+// ? Type assertion is used to explicitly tell TypeScript the type of a variable. It can be useful when TypeScript is unable to infer the type correctly or when you want to be more specific about the type of a variable. However, you should only use type assertion when necessary and when you are confident that the type you are asserting is correct.
+
 interface User7 {
   id: number;
   name: string;
