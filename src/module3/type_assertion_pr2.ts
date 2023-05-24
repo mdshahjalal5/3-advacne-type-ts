@@ -23,5 +23,23 @@ console.log(dsa);
 // ? ------------------------------------//----------------------------------------------------------------
 
 
+//  
+const person = {
+  name: "John Doe",
+  age: 35,
+  occupation: "Software Engineer",
+};
 
+console.table(person);
+
+
+const array = [
+    'iyak', 
+    'jammy', 
+    'windows', 
+    'linux',
+
+]
+
+console.table(array);
 
