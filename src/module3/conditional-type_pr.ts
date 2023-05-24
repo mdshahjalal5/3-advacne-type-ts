@@ -44,3 +44,4 @@ type genius = {
 }
 
 type genniusKey= keyof genius; // ! name | age | is_true
+
