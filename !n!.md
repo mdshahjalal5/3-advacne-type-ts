@@ -11,11 +11,3 @@
 ## !n! generic in function 
 ##  ! pa ba => before param and after param
 
-
-
-git add .
-git commit -m 'done'
-git push
-git add .
-git commit -m 'done'
-git push
