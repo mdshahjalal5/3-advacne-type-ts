@@ -24,13 +24,13 @@ const crush4: CrushInterface<PersonInterface, PersonInterface> = {
   },
 };
 
-const crush1: CrushInterface<boolean, string> = {
+const crush13: CrushInterface33<boolean, string> = {
   name: "Kate Winslet",
   husband: true,
   wife: "Chokina",
 };
 
-const crush2: CrushInterface<string> = {
+const crush33: CrushInterface33<string> = {
   name: "Kate Winslet",
   husband: "Persian",
 };
