@@ -16,8 +16,6 @@ type check_key<x,y> = y extends CollegeKeys ? true : false;
 type check_teacher = check_key<string,"teacher">
 
 
-
-
 // ? ------------------------------------------//--------------------------------------------------------
 
 type TMath = {
