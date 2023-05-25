@@ -41,7 +41,7 @@ type is_android = phone_config["is_android"]
 
 // !n! in operator 
 type phone2 = {
-    [key_anything in 'name'|'color'] :string & number// !n! take name & color  and generate type 
+    [key_anything in 'name'|'color'] :string  // !n! take name & color  and generate type 
 }
 
 type Area2<T> = {
