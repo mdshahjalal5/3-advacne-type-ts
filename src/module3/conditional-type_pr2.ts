@@ -43,3 +43,7 @@ type remaining = remove_key<quality, 'good'>
 
 // ?-------------------------------------------------------//--------------------------------------------------------
 
+type buq = true | false | null 
+
+type removing_key<T, K> = T extends K ? never: T;
+
