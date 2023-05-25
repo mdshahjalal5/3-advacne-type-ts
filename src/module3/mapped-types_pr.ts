@@ -36,6 +36,8 @@ type phone_name2 = phone_config["storage"]
 type is_android = phone_config["is_android"]
 
 
+// ?-----------------------------------------//----------------------------------
+
 
 
 // !n! in operator 
