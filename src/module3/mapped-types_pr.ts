@@ -51,7 +51,7 @@ type Area2<T> = {
 
 
 const phone3:Area2<phone_config> = {
-    name: 'Samsung', 
+    // name: 'Samsung', 
     storage: 1000, 
     is_android: true, 
     price: 1000, 
