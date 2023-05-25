@@ -95,3 +95,15 @@ interface IStudent extends subject {
   age: age;
 }
 
+const student33:makeArray<IStudent> = [
+    {
+        age:{
+            age: 3
+        }, 
+        name:'iya', 
+        is_costy:false, 
+        price:33, 
+        weight:5
+    }
+]
+console.log(student33);
