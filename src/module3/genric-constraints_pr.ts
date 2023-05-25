@@ -30,6 +30,9 @@ const feature={
     name:'xiomi', 
     description:'lorem Ips ', 
     required:true, 
-    // type
+    type:'costy', 
+    weight:5
+
 }
+
 const my_phone = additional_features(feature);
