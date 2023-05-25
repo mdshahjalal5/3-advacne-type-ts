@@ -18,6 +18,7 @@ type check_teacher = check_key<string,"teacher">
 
 // ? ------------------------------------------//--------------------------------------------------------
 
+
 type TMath = {
     name:string, 
     type:string;

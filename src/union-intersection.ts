@@ -31,3 +31,10 @@
 //   leadershipExperience: 1,
 //   level: "senior",
 // };
+
+
+interface father {
+    name: string;
+    age: number;
+    is_good: boolean;
+}
