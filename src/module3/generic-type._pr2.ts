@@ -53,3 +53,10 @@ console.log(res);
 
 // ?-----------------------------------//--------------------------------------------------------// --------------------
 
+type generic_arr<T> = Array<T>
+
+interface subject{
+    name: string, 
+    weight: number, 
+    is_costy: boolean
+}

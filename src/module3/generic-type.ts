@@ -1,11 +1,11 @@
-type GenericTuple<X, Y> = [X, Y];
+type GenericTuple0<X, Y> = [X, Y];
 
 type gen<a> = a;
 const name91:gen<string> = 'ismai'
 
-const relation: GenericTuple<string, string> = ["Persian", "Kate Winslet"];
+const relation: GenericTuple0<string, string> = ["Persian", "Kate Winslet"];
 
-// type RelationWithSalaryType = { name: string; salary: number };
+type RelationWithSalaryType = { name: string; salary: number };
 
 interface RelationWithSalaryInterface {
   name: string;
@@ -47,5 +47,5 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [
   },
 ];
 
-add(x, y, z);
-add(3, 4, 5);
+// add(x, y, z);
+add(3, 4);

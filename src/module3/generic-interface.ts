@@ -1,10 +1,10 @@
 // ! Generic Interface
 
-interface CrushInterface<T, U = null> {
+interface CrushInterface33<T, U = null> {
   name: string;
   husband: T;
   wife?: U;
-  other: V;
+  // other: "other", // literal type ;
 }
 
 interface PersonInterface {
