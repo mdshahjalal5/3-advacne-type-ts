@@ -80,3 +80,12 @@ const subject_arr:generic_arr<subject> = [
         is_costy:true
     }
 ]
+
+
+type makeArray<A> =  A[] // Array<A>
+
+interface IStudent extends subject {
+    price: number, 
+    
+}
+
