@@ -1,10 +1,4 @@
-
-
-
-
-
-
-//  !n! conditiona type 
+ //  !n! conditiona type 
 // !n! ex 
 
 type a = number; 
