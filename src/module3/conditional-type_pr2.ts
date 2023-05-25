@@ -2,8 +2,11 @@
 
 interface college{
     name: string;
-    established:number
+    established:number, 
+    student:number, 
 }
+
+
 
 
 
