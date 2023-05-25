@@ -67,5 +67,16 @@ const subject_arr:generic_arr<subject> = [
         weight:3, 
         name:'bangla'
     }, 
-    
+
+    {
+        name:"math", 
+        weight:5, 
+        is_costy:false, 
+    }
+    , 
+    {
+        name:"English", 
+        weight:8, 
+        is_costy:true
+    }
 ]
