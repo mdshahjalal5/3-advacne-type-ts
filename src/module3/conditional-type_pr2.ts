@@ -9,5 +9,14 @@ interface college{
 
 
 
+interface college{
+    name: string;
+    established:number, 
+    student:number, 
+}
+
+const college_keys = keyof college;
+
+
 
 
