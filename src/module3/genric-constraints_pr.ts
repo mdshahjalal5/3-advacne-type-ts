@@ -25,3 +25,11 @@ const samsung = add_features(feature_info)
 const additional_features =<T extends IFeature >(p:T) =>{
 
 }
+
+const feature={
+    name:'xiomi', 
+    description:'lorem Ips ', 
+    required:true, 
+    // type
+}
+const my_phone = additional_features(feature);
