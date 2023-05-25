@@ -1,7 +1,7 @@
 > 5/7/2023, 6:17:36 AM
 > asig conkeycom => assertion>interface> generic> constraint> keyof constraint> conditinal type> maped types 
 
-> generic > itfa => generic interface> 
+> generic > itfa => generic interface> generic type> generic in function
 ## 1.  as ni ac =>type assertion => nisa (any type *not sugg*estion) => try catch(unknown ) => <>
 
 ## 2.  irex  => interface => reference type(farab) => extends =>
