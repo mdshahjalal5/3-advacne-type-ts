@@ -38,3 +38,16 @@ interface father {
     age: number;
     is_good: boolean;
 }
+
+type mother = father &{
+    is_beautiful: boolean;
+}
+
+const my_childs_mother:mother = {
+    name: 'bou',
+    age:18,
+    is_beautiful: false, 
+    is_good: false
+}
+
+console.log(my_childs_mother);
