@@ -1,60 +1,60 @@
-// //normal function
-// //default parameter
-// function add(num1: number, num2: number = 10): number {
-//   return num1 + num2;
-// }
+//normal function
+//default parameter
+function add(num1: number, num2: number = 10): number {
+  return num1 + num2;
+}
 
-// add(30, 50);
+add(30, 50);
 
-// //spread opearator
+//spread opearator
 
-// const myFriends = ["chandler", "joey", "ross"];
-// const newFriends = ["monica", "rachel", "pheobe"];
-// const myBestFriend = {
-//   fullName: "Abul Bashar",
-//   age: 24,
-// };
+const myFriends = ["chandler", "joey", "ross"];
+const newFriends = ["monica", "rachel", "pheobe"];
+const myBestFriend = {
+  fullName: "Abul Bashar",
+  age: 24,
+};
 
-// const [besfriend] = myFriends;
-// const { fullName: string } = myBestFriend;
+const [besfriend] = myFriends;
+const { fullName: string } = myBestFriend;
 
-// console.log({ string });
+console.log({ string });
 
-// myFriends.push(...newFriends);
-// // console.log(myFriends);
+myFriends.push(...newFriends);
+// console.log(myFriends);
 
-// //rest paaremeter
+//rest paaremeter
 
-// const greetFriends = (...friends: string[]): void =>
-//   friends.forEach((friend) => console.log(`Hi ${friend}`));
+const greetFriends = (...friends: string[]): void =>
+  friends.forEach((friend) => console.log(`Hi ${friend}`));
 
-// greetFriends(
-//   "kashem",
-//   "hashem",
-//   "gashem",
-//   "lashem",
-//   "bangla bhai",
-//   "english bhai"
-// );
+greetFriends(
+  "kashem",
+  "hashem",
+  "gashem",
+  "lashem",
+  "bangla bhai",
+  "english bhai"
+);
 
-// //array and object destructuring
+//array and object destructuring
 
-// const addArrow = (num1: number, num2: number): number => num1 + num2;
+const addArrow = (num1: number, num2: number): number => num1 + num2;
 
-// const arr = [1, 4, 5, 7];
+const arr = [1, 4, 5, 7];
 
-// const newArray = arr.map((elem: number) => elem * elem);
+const newArray = arr.map((elem: number) => elem * elem);
 
-// const person: {
-//   name: string;
-//   balance: number;
-//   addBalance(money: number): void;
-// } = {
-//   name: "Mezba",
-//   balance: 5,
-//   addBalance(money: number) {
-//     console.log(`My New Balance is ${this.balance + money}`);
-//   },
-// };
+const person4: {
+  name: string;
+  balance: number;
+  addBalance(money: number): void;
+} = {
+  name: "Mezba",
+  balance: 5,
+  addBalance(money: number) {
+    console.log(`My New Balance is ${this.balance + money}`);
+  },
+};
 
-// // person.addBalance(555);
+person4.addBalance(555);
