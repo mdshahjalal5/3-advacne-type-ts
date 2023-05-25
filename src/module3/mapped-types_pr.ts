@@ -29,6 +29,10 @@ interface phone_config  {
     // color:any
 }
 
+type phone_name = phone_config["name"]
+
+type phone_name2 = phone_config["storage"]
+
 
 
 
