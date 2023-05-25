@@ -31,5 +31,3 @@ type checkMathKey<T1, T2> = T2 extends T1 ? true : false;
 
 type is_hard = checkMathKey<Math_keys, "is_hard">
 
-
-// fasd
