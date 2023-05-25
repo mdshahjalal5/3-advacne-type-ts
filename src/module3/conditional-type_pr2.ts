@@ -29,5 +29,12 @@ type Math_keys = keyof TMath;
 
 type checkMathKey<T1, T2> = T2 extends T1 ? true : false;
 
-type is_hard = checkMathKey<Math_keys, "is_hard">
+type is_hard = checkMathKey<"is_hard", Math_keys>;
 
+// ?-------------------------------------------------------//----------------------------------------------------------
+
+// ?n! remove key type from object type 
+
+type remove_page<x, y> = y extends x ? never : TMath;
+
+type pageres = remove_page<TMath, "page">;
