@@ -60,3 +60,12 @@ interface subject{
     weight: number, 
     is_costy: boolean
 }
+
+const subject_arr:generic_arr<subject> = [
+    {
+        is_costy:true, 
+        weight:3, 
+        name:'bangla'
+    }, 
+    
+]
