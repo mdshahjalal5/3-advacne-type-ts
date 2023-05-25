@@ -1,5 +1,6 @@
-// ?  kich => check key => check a specific key type  exist or not   exist in a object type 
-// ? kig => keyof> generic> 
+// ? kir> kich =>remove>kich = check key => check a specific key type  exist or not   exist in a object type => remove a specific key type
+
+//? kich> kig => keyof> generic> 
 interface College {
   name: string;
   established: number;
