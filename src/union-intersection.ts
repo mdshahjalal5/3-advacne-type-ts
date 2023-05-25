@@ -2,11 +2,11 @@
 //   name: string;
 // };
 
-// // type JuniorDeveloper = {
-// //   name: string;
-// //   expertise: string;
-// //   experience: number;
-// // };
+// type JuniorDeveloper = {
+//   name: string;
+//   expertise: string;
+//   experience: number;
+// };
 
 // type JuniorDeveloper = NoobDeveloper & {
 //   expertise: string;
@@ -51,3 +51,4 @@ const my_childs_mother:mother = {
 }
 
 console.log(my_childs_mother);
+
