@@ -22,4 +22,6 @@ const feature_info = {
 } // !n! feature_info  must fulfill the up interface feature => then addition property like is_available can take
 const samsung = add_features(feature_info)
 
-const additional_features =<T extends IFeature >
+const additional_features =<T extends IFeature >(p:T) =>{
+
+}
