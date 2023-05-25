@@ -23,7 +23,8 @@ const feature_info = {
 const samsung = add_features(feature_info)
 
 const additional_features =<T extends IFeature >(p:T) =>{
-
+    console.log(p);
+    
 }
 
 const feature={
