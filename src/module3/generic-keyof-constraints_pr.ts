@@ -26,3 +26,8 @@ const info = {
 }
 const value = get_value(info, "gender")
 console.log(value, '"value"');
+
+
+// ? -------------------------------------------//-------------------------------------------
+
+

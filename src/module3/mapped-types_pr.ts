@@ -29,6 +29,9 @@ interface phone_config  {
     // color:any
 }
 
+
+
+
 // !n! in operator 
 type phone2 = {
     [key in 'name'|'color'] :string // !n! take name & color  and generate type 
