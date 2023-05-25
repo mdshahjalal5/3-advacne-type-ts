@@ -91,8 +91,7 @@ type age = Pick<Property9, "age">;// ? pick age from property9
 type makeArray<A> =  A[] // Array<A>
 
 interface IStudent extends subject {
-    price: number, 
-    age:age, 
-
+  price: number; 
+  age: age;
 }
 
