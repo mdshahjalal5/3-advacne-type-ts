@@ -8,6 +8,10 @@ interface College {
 
 type CollegeKeys = keyof College;
 
+type check_key<x,y> = y extends CollegeKeys ? true : false;
+
+type check_teacher = check_key<string,"teacher">
+
 
 
 
