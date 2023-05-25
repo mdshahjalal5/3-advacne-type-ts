@@ -107,3 +107,4 @@ const student33:makeArray<IStudent> = [
     }
 ]
 console.log(student33);
+

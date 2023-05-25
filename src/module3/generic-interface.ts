@@ -94,5 +94,5 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [
   },
 ];
 
-add(x, y, z);
-add(3, 4, 5);
+// add(x, y, z);
+add(3, 4, );
