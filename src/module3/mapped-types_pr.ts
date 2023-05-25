@@ -57,4 +57,4 @@ const phone3:Area2<phone_config> = {
     price: 1000, 
     color: 'blue'
 }
-console.log('"fs h"')
+console.log('"fs h"', phone3)
