@@ -35,6 +35,9 @@ type is_hard = checkMathKey<"is_hard", Math_keys>;
 
 // ?n! remove key type from object type 
 
-type remove_page<x, y> = y extends x ? never : TMath;
+type quality = "good" | "bad" | "worst"
 
-type pageres = remove_page<TMath, "page">;
+type remove_key<T, K> = T extends K ? never: T;
+
+type remaining = remove_key<quality, 'good'>
+
