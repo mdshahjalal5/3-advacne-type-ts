@@ -1,6 +1,6 @@
 // ! Generic Interface
 
-interface CrushInterface33<T, U = null> {
+interface CrushInterface33<T, U = string> {
   name: string;
   husband: T;
   wife?: U;
