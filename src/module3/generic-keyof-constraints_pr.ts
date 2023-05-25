@@ -10,7 +10,7 @@ interface identity9{
 
 type key_of_identity9 = keyof identity9;  // !n! 
 
-const key:key_of_identity9 = "address"
+const key:key_of_identity9 = "address"  
 
 
 const get_value = <x, y extends keyof x>(p1:x, p2:y)=>{
