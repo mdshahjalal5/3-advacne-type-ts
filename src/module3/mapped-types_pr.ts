@@ -25,8 +25,8 @@ interface phone_config  {
     name:string, 
     storage:number, 
     is_android:boolean, 
-    // price:unknown, 
-    // color:any
+    price:unknown, 
+    color:any
 }
 
 type phone_name = phone_config["name"]
@@ -54,7 +54,7 @@ const phone3:Area2<phone_config> = {
     name: 'Samsung', 
     storage: 1000, 
     is_android: true, 
-    // price: 1000, 
-    // color: 'blue'
+    price: 1000, 
+    color: 'blue'
 }
 console.log('"fs h"')
