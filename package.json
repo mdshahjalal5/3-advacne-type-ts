@@ -1,8 +1,12 @@
 {
+
+  
+
   "name": "module-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "indeslastuppid",
+
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src",
     "test": "echo \"Error: no test specified\" && exit 1"
