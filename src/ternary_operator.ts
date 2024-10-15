@@ -16,7 +16,7 @@ console.log(isAdult);
 
 const isAuthenticatedUser = "not guest";
 const userName = isAuthenticatedUser ?? "Guest";
-const userName2 = isAuthenticatedUser ? "Guest" : isAuthenticatedUser; ;
+const userName2 = isAuthenticatedUser ? "Guest" : isAuthenticatedUser;
 console.log({ userName }, { userName2 });
 
 type Manush = {

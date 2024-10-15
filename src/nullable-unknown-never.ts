@@ -5,9 +5,7 @@
 //     console.log("Searching...");
 //   }
 // };
-
 // searchName(null);
-
 // // kmh^-1 --> ms^-1
 
 // const getMyCarSpeed = (speed: unknown) => {

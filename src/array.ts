@@ -1,4 +1,4 @@
-// const names = ["abul ", "kabul", "babul", 77, , true];
+//TODO: const names = ["abul ", "kabul", "babul", 77, , true];
 
-// const boyfriends: [string, boolean] = ["abul", true];
-// //number -> string
+//FIX: const boyfriends: [string, boolean] = ["abul", true];
+//TODO: //number -> string

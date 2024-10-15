@@ -1,7 +1,6 @@
 // Mocking
 
 // Json Place Holder
-
 interface ITodo {
   userId: number;
   id: number;

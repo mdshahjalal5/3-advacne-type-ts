@@ -1,9 +1,10 @@
-//normal function
-//default parameter
+//t:normal function
+//
+//HACK:default parameter
 function add(num1: number, num2: number = 10): number {
   return num1 + num2;
 }
-
+//h:
 add(30, 50);
 
 //spread opearator
@@ -34,7 +35,7 @@ greetFriends(
   "gashem",
   "lashem",
   "bangla bhai",
-  "english bhai"
+  "english bhai",
 );
 
 //array and object destructuring

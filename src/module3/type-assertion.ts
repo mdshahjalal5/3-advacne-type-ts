@@ -1,37 +1,38 @@
-//  let emni: any;
+let emni: any;
 
-// emni = "Next level web devlopment";
+emni = "Next level web devlopment";
 
-// (emni as string).length;
-// <string>emni.length;
+(emni as string).length;
+<string>emni.length;
 
-// function kgToGram(param: string | number): string | number | undefined {
-//   if (typeof param === "string") {
-//     const value = parseFloat(param) * 1000;
-//     return `The Converted result is: ${value} gram`;
-//   }
-//   if (typeof param === "number") {
-//     const value = param * 1000;
-//     return value;
-//   }
-// }
+function kgToGram(param: string | number): string | number | undefined {
+  if (typeof param === "string") {
+    const value = parseFloat(param) * 1000;
+    return `The Converted result is: ${value} gram`;
+  }
+  if (typeof param === "number") {
+    const value = param * 1000;
+    return value;
+  }
+}
 
-// const resultToBeNumber = <number>kgToGram(1000);
-// const resultToBeStrings = <string>kgToGram(100);
+const resultToBeNumber = <number>kgToGram(1000);
+const resultToBeStrings = <string>kgToGram("100");
 
-// type CustomErrorType = {
-//   message: string;
-// };
+type CustomErrorType = {
+  message: string;
+};
 
-// try {
-// } catch (err) {
-//   console.log((err as CustomErrorType).message);
-// }
+try {
+} catch (err) {
+  console.log((err as CustomErrorType).message);
+  console.log((<CustomErrorType>err).message);
+}
 
 // const rollNumbers: number[] = [1, 4, 7];
 
 // type ArrayType<X,Y> = [X,Y];
-// // 
+// //
 // interface Name{
 //   name:string,
 // }
